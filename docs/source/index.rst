@@ -1,1 +1,7 @@
+SPLICE test
+===========
 
+.. toctree::
+  :glob:
+
+  *
