@@ -1,24 +1,25 @@
 class NotAStringError(Exception):
-  """ Raised if the parameter is not a string"""
-  pass
-  
+    """ Raised if the parameter is not a string"""
+    pass
+
 
 def testing(parameter):
-  """
-  Description goes here
+    """
+    Description goes here
+    
+    :param parameter: Non-optional string to be passed in
+    :type parameter: string
+    :raise: trialSnake.NotAStringError: If the parameter is not a string.
+    :return: The string backwards
+    :rtype: string
+    """
+    try:
+        if type(parameter) != str:
+            raise NotAStringError
 
-  :param parameter: Non-optional string to be passed in
-  :type parameter: string
-  :raise: trialSnake.NotAStringError: If the parameter is not a string.
-  :return: The string backwards
-  :rtype: string
-  """
-  try:
-    if type(parameter) != str:
-      raise NotAStringError
+    except NotAStringError:
+        print("Not a string")
+        return
 
-  except NotAStringError:
-    print("Not a string")
-    return
-
-  return parameter[::-1]
+    print(parameter[::-1])
+    return 
