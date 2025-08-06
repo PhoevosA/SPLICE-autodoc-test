@@ -4,4 +4,4 @@ Real Test
 .. autosummary::
   :toctree: generated
 
-  trialSnake
+  splice-cli.src.splice_cli.greetings
