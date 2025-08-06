@@ -1,4 +1,4 @@
 .. autosummary::
   :toctree: generated
 
-  __init__
+  splice-cli
