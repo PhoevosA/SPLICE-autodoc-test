@@ -1,3 +1,9 @@
+"""
+SPLICE testing stuff
+"""
+
+__version__ = "0.1.0"
+
 class NotAStringError(Exception):
     """ Raised if the parameter is not a string"""
     pass
