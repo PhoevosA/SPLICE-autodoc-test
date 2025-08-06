@@ -3,7 +3,7 @@
 # -- Project information
 import os 
 import sys
-sys.path.insert(0, os.path.abspath('.'))
+sys.path.insert(0, os.path.abspath('..'))
 
 project = 'SPLICE test'
 copyright = '2025, Me'
