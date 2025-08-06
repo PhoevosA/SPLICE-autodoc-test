@@ -4,4 +4,4 @@ Real Test
 .. autosummary::
   :toctree: generated
 
-  greetings
+  splice-cli.src.splice_cli.__init__
