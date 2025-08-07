@@ -12,4 +12,4 @@ Test File
   :toctree: generated
   :recursive:
 
-  folder1.trialSnake
+  trialSnake
