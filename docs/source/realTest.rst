@@ -4,4 +4,4 @@ Real Test
 .. autosummary::
   :toctree: generated
 
-  trialSnake
+  testFolder/src/spliceFolder/__init__
