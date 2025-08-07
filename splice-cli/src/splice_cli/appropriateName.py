@@ -41,7 +41,3 @@ def stupidFunction():
     """
     
     return 
-
->>> from appropriateName import testing
->>> testing("example")
->>> elpmaxe
