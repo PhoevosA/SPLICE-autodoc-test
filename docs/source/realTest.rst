@@ -2,6 +2,6 @@ Real Test
 =========
 
 .. autosummary::
-  :recursive:
+  :toctree:
 
   testingFile
