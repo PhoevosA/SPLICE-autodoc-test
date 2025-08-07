@@ -1,5 +1,5 @@
-Auto cli doc?
-=============
+Auto cli doc
+============
 
 
 .. autosummary::
@@ -7,7 +7,5 @@ Auto cli doc?
   :recursive:
 
   help2
-
-
 
 
