@@ -4,14 +4,11 @@ build:
   os: "ubuntu-22.04"
   tools:
     python: "3.10"
-  commands:
-    - curl -LsSf https://astral.sh/uv/install.sh | sh
-    - make docs/source
 
 python:
   install:
     - requirements: docs/requirements.txt
-    - method: pip
+    - method: uv
       path: . 
 
 sphinx:
