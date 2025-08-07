@@ -4,4 +4,4 @@ Real Test
 .. autosummary::
   :toctree: generated
 
-  test
+  test.testing
