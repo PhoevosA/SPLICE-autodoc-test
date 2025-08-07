@@ -1,12 +1,12 @@
+"""
+The main program for the api 
+"""
+
 from fastapi import FastAPI
 from splice_lib import main
 from splice_lib.main import random_number
 
 app = FastAPI()
-
-"""
-The main program for the api 
-"""
 
 def get_random_number():
     """
