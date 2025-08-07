@@ -6,7 +6,6 @@ build:
     python: "3.10"
   commands:
     - curl -LsSf https://astral.sh/uv/install.sh | sh
-    - ~/.local/bin/uv tool install tox --with tox-uv -p 3.13 --managed-python
     - make docs
 
 python:
