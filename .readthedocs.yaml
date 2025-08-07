@@ -6,7 +6,7 @@ build:
     python: "3.10"
   commands:
     - curl -LsSf https://astral.sh/uv/install.sh | sh
-    - make html
+    - make docs/source
 
 python:
   install:
