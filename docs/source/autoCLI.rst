@@ -6,6 +6,6 @@ Auto cli doc
   :toctree: generated
   :recursive:
 
-  help2
+  appropriateName
 
 
