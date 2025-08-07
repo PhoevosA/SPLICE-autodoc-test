@@ -6,7 +6,7 @@ Auto cli doc?
   :toctree: generated
   :recursive:
 
-  __init__
+  greetings
 
 
 
