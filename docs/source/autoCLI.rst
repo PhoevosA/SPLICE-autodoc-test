@@ -9,5 +9,9 @@ Auto cli doc?
   help2
 
 
+.. autosummary::
+  :toctree: generated
+  :recursive:
 
+  main
 
