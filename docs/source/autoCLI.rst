@@ -1,5 +1,5 @@
-Auto cli doc?
-=============
+Auto cli doc
+============
 
 
 .. autosummary::
