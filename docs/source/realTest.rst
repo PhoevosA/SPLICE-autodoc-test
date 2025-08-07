@@ -4,4 +4,4 @@ Real Test
 .. autosummary::
   :recursive:
 
-  test
+  testingFile
