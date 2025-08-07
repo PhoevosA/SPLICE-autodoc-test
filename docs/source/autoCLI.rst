@@ -6,7 +6,7 @@ Auto cli doc?
   :toctree: generated
   :recursive:
 
-  greetings
+  help2
 
 
 
