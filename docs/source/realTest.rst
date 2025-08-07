@@ -5,4 +5,4 @@ Real Test
 .. autosummary::
   :toctree:
 
-  help
+  testFolder.src.spliceFolder.help
