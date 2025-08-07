@@ -6,7 +6,7 @@ Auto cli doc?
   :toctree: generated
   :recursive:
 
-  help2
+  __init__
 
 
 
