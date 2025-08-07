@@ -4,6 +4,8 @@ SPLICE testing stuff
 
 __version__ = "0.1.0"
 
+from .__init__ import main
+
 class NotAStringError(Exception):
     """ Raised if the parameter is not a string"""
     pass
@@ -36,3 +38,11 @@ def stupidFunction():
     """
     
     return 
+
+def main2():
+    """
+    Not going to work
+    """
+    main()
+
+    return
