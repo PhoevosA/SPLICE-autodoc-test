@@ -6,3 +6,5 @@ Auto api doc
   :recursive:
 
   app.main
+
+.. autofunction:: app.main.get_random_number()
