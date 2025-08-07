@@ -3,7 +3,7 @@
 import os
 import sys
 
-sys.path.insert(0, os.path.abspath('testFile.src.cliFiles'))
+sys.path.insert(0, os.path('testFile.src.cliFiles'))
 
 # -- Project information
 
