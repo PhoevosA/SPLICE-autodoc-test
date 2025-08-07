@@ -5,4 +5,4 @@ Auto api doc
   :toctree: generated
   :recursive:
 
-  app/main
+  main
