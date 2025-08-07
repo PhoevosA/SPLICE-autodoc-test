@@ -29,3 +29,10 @@ def testing(parameter):
 
     print(parameter[::-1])
     return 
+
+def stupidFunction():
+    """
+    Does nothing
+    """
+    
+    return 

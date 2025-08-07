@@ -8,7 +8,6 @@ Auto cli doc?
 
   help2
 
-.. autofunction:: help2.testing
 
-string :py:func:`__init__.main`
+
 
