@@ -42,5 +42,6 @@ def stupidFunction():
     
     return 
 
-
-    return
+>>> from appropriateName import testing
+>>> testing("example")
+>>> elpmaxe
