@@ -5,18 +5,14 @@ build:
   tools:
     python: "3.10"
   jobs:
-    create_environment:
-      - asdf plugin add uv
-      - asdf install uv latest
-      - asdf global uv latest
-      - UV_PROJECT_ENVIRONMENT=$READTHEDOCS_VIRTUALENV_PATH uv sync --all-extras --group docs
-    install:
-      - "true"
+    post_install:
+      - pip install uv
+      - UV_PROJECT_ENVIRONMENT=$READTHEDOCS_VIRTUALENV_PATH uv sync --all-extras --group docs --link-mode=copy
 
 python:
   install:
     - requirements: docs/requirements.txt
-    - method: pip
+    - method: uv
       path: . 
 
 sphinx:
