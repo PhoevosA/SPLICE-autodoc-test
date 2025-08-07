@@ -12,4 +12,4 @@ Test File
   :toctree: generated
   :recursive:
 
-  help2
+  dcoTest
