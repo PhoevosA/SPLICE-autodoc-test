@@ -8,7 +8,7 @@ Auto cli doc?
 
   help2
 
-.. autofunction:: __init__.main
+.. autofunction:: greetings.greet
 
 
 
