@@ -8,7 +8,6 @@ Auto cli doc?
 
   help2
 
-.. autofunction:: greetings.greet
 
 
 
