@@ -3,7 +3,7 @@
 import os
 import sys
 
-sys.path.insert(0, os.path.abspath('folder1'))
+sys.path.insert(0, os.path.abspath('../folder1'))
 
 # -- Project information
 
