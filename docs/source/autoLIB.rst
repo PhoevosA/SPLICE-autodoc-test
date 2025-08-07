@@ -1,3 +1,6 @@
+Auto lib doc
+============
+
 .. autosummary::
   :toctree: generated
   :recursive:
