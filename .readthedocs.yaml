@@ -6,12 +6,20 @@ build:
     python: "3.10"
   commands:
     - pip install uv
+  jobs:
+      pre_create_environment:
+         - asdf plugin add uv
+         - asdf install uv latest
+         - asdf global uv latest
+      create_environment:
+         - uv venv "${READTHEDOCS_VIRTUALENV_PATH}"
+      install:
+         - UV_PROJECT_ENVIRONMENT="${READTHEDOCS_VIRTUALENV_PATH}" uv sync --frozen --group docs
 
 python:
   install:
     - requirements: docs/requirements.txt
-    - method: uv
-      path: . 
+
 
 sphinx:
   configuration: docs/source/conf.py
