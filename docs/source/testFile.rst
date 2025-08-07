@@ -1,11 +1,11 @@
 Test File
 =========
 
-.. autofunction:: folder1.trialSnake.testing
+.. autofunction:: trialSnake.testing
 
-string :py:func:`folder1.trialSnake.testing`
+string :py:func:`trialSnake.testing`
 
-.. autoexception:: folder1.trialSnake.NotAStringError
+.. autoexception:: trialSnake.NotAStringError
 
 >>> import trialSnake
 >>> trialSnake.testing("word")
@@ -15,4 +15,4 @@ string :py:func:`folder1.trialSnake.testing`
 .. autosummary::
   :toctree: generated
 
-  folder1.trialSnake
+  trialSnake
