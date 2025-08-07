@@ -17,5 +17,5 @@ Auto cli doc?
 
 .. autofunction:: main.main
 
-.. autofunction:: random_number()
+.. autofunction:: main.random_number
 
