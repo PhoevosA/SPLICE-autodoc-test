@@ -1,11 +1,11 @@
 from fastapi import FastAPI
-from splice_lib import random_number
+from splice_lib import main
 
 app = FastAPI()
 
 
 def get_random_number():
-    return { "random": random_number() }
+    return { "random": main.random_number() }
 
 if __name__ == "__main__":
     import uvicorn
