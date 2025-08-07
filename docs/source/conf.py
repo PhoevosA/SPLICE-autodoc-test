@@ -1,5 +1,11 @@
 # Configuration file for the Sphinx documentation builder.
 
+import os
+import sys
+
+sys.path.insert(0, os.path.abspath('../../testFile/src/cliFiles'))
+sys.path.insert(0, os.path.abspath('../../splice-cli/src/splice_cli'))
+
 # -- Project information
 
 project = 'SPLICE test'
@@ -33,3 +39,5 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+autosummary_generate = True
