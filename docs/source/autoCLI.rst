@@ -4,4 +4,4 @@ Auto cli doc?
 .. autosummary::
   :toctree: generated
 
-  trialSnake
+  testFile.src.cliFiles.docTest
