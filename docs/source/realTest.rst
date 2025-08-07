@@ -4,4 +4,4 @@ Real Test
 .. autosummary::
   :toctree: generated
 
-  testFolder/src/spliceFolder/__init__
+  testFolder.src.spliceFolder.__init__
