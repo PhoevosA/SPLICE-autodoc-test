@@ -6,7 +6,7 @@ import sys
 sys.path.insert(0, os.path.abspath('../../testFile/src/cliFiles'))
 sys.path.insert(0, os.path.abspath('../../splice-cli/src/splice_cli'))
 sys.path.insert(0, os.path.abspath('../../splice-lib/src/splice_lib'))
-sys.path.insert(0, os.path.abspath('../../splice-api'))
+sys.path.insert(0, os.path.abspath('../../splice-api/app'))
 # -- Project information
 
 project = 'SPLICE test'
