@@ -1,5 +1,6 @@
 """
 SPLICE testing stuff
+:noindex:
 """
 
 __version__ = "0.1.0"
