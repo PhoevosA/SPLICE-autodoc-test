@@ -1,7 +1,7 @@
 Test File
 =========
 
-.. autofunction:: pythonTest.testing
+.. autofunction:: trialSnake.testing
 
 string :py:func:`trialSnake.testing`
 
