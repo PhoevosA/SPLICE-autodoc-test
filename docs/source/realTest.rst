@@ -4,4 +4,4 @@ Real Test
 .. autosummary::
   :toctree:
 
-  pythonTest
+  pythonTest.testing
