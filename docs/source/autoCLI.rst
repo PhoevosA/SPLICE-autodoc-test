@@ -17,3 +17,7 @@ Detailed descriptions of the functions are down here
 .. autofunction:: appropriateName.stupidFunction
 
 .. autoexception:: appropriateName.NotAStringError
+
+>>> from appropriateName import testing
+>>> testing("example")
+>>> elpmaxe
