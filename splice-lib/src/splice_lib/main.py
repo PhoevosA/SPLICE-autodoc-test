@@ -1,5 +1,9 @@
 import uuid
 
+"""
+Very detailed description of this random number generator here or something
+"""
+
 def main():
     """
     This function prints the random number
