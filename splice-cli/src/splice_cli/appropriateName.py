@@ -16,7 +16,7 @@ def testing(parameter):
     
     :param parameter: Non-optional string to be passed in
     :type parameter: string
-    :raise trialSnake.NotAStringError: If the parameter is not a string.
+    :raise appropriateName.NotAStringError: If the parameter is not a string.
     :return: The string backwards
     :rtype: string
     """
@@ -33,7 +33,11 @@ def testing(parameter):
 
 def stupidFunction():
     """
-    Does nothing
+    Does nothing - remember to delete this before demonstrating 
+
+    :param None: Not in the budget :( 
+    :raise No Errors: Literally does not do anything
+    :return: As above 
     """
     
     return 
