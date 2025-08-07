@@ -12,4 +12,4 @@ Test File
   :toctree: generated
   :recursive:
 
-  docTest
+  trialSnake
