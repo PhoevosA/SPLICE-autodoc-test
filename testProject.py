@@ -15,7 +15,7 @@ def testing(parameter):
     
     :param parameter: Non-optional string to be passed in
     :type parameter: string
-    :raise trialSnake.NotAStringError: If the parameter is not a string.
+    :raise testProject.NotAStringError: If the parameter is not a string.
     :return: The string backwards
     :rtype: string
     """
