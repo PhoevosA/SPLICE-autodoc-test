@@ -2,9 +2,8 @@
 requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
-[uv.tool.dependency-groups.docs]
-dependencies = ["sphinx>=4.0"]
-optional = true
+[dependency-groups]
+docs = ["sphinx"]
 
 [project]
 name = "testProject"
