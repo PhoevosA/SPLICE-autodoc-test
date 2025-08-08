@@ -17,7 +17,7 @@ build:
 python:
   install:
     - requirements: docs/requirements.txt
-    - method: uv
+    - method: pip
       path: . 
 
 sphinx:
