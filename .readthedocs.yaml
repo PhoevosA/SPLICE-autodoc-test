@@ -14,11 +14,7 @@ build:
     install:
       - UV_PROJECT_ENVIRONMENT="${READTHEDOCS_VIRTUALENV_PATH}" uv sync --frozen --group docs
 
-python:
-  install:
-    - requirements: docs/requirements.txt
-    - method: uv
-      path: . 
+
 
 sphinx:
   configuration: docs/source/conf.py
