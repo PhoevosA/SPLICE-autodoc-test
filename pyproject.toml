@@ -3,9 +3,7 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [tool.uv.dependency-groups]
-docs = [
-  sphinx
-]
+docs = "sphinx"
 
 [project]
 name = "trialSnake"
