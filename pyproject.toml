@@ -6,6 +6,6 @@ build-backend = "flit_core.buildapi"
 docs = ["sphinx"]
 
 [project]
-name = "trialSnake"
+name = "testProject"
 authors = [{name = "Me", email = "Me@real.email"}]
 dynamic = ["version", "description"]
