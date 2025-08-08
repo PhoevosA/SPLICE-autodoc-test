@@ -15,6 +15,12 @@ build:
     install: 
       - "true"
 
+python:
+  install:
+    - requirements: docs/requirements.txt
+    - method: uv pip
+      path: . 
+
 sphinx:
   configuration: docs/source/conf.py
 
