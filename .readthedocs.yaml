@@ -12,6 +12,7 @@ build:
       - asdf global uv latest
       - UV_PROJECT_ENVIRONMENT=$READTHEDOCS_VIRTUALENV_PATH uv sync --all-extras --group docs
     install:
+      - UV_PROJECT_ENVIRONMENT=$READTHEDOCS_VIRTUALENV_PATH uv install sphinx 
       - "true"
 
 # Build documentation in the docs/ directory with Sphinx
