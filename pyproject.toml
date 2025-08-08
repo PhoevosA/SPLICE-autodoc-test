@@ -6,7 +6,7 @@ build-backend = "flit_core.buildapi"
 default-groups = ["docs"]
 
 [tool.uv.dependency-groups]
-docs = {requires-python = ">=3.12"}
+docs = {sphinx}
 
 [project]
 name = "testProject"
