@@ -4,7 +4,7 @@ build-backend = "flit_core.buildapi"
 
 [tool.uv.dependency-groups]
 docs = [
-  "sphinx"
+  sphinx
 ]
 
 [project]
