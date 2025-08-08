@@ -3,7 +3,7 @@ import os
 folder_paths = ['splice-api/app','splice-cli/src/splice_cli','splice-lib/src/splice_lib']
 
 for path in folder_paths:
-  python_files = [f for f in os.listdir(folder_path) if f.endswith('.py')]
+  python_files = [f for f in os.listdir(path) if f.endswith('.py')]
   
   for python_file in python_files:
       module_name = os.path.splitext(python_file)[0]
