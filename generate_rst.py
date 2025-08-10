@@ -15,9 +15,9 @@ for path in folder_paths:
         module_name = os.path.splitext(python_file)[0]
       
         f.write(f"{module_name}\n")
-        f.write("-" * len(page_name) + "\n\n")
+        f.write("-" * len(page_name) + "\n")
         f.write("\n")
-        f.write(f".. automodule:: {module_name}\n\n")
+        f.write(f".. automodule:: {module_name}\n")
         f.write("   :members:\n")
         f.write("   :undoc-members:\n")
         f.write("   :show-inheritance:\n")
