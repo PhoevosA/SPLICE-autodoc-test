@@ -4,10 +4,11 @@ folder_paths = ['splice-api/app','splice-cli/src/splice_cli','splice-lib/src/spl
 
 for path in folder_paths:
   python_files = [f for f in os.listdir(path) if f.endswith('.py')]
+  page_name = path.split("/")[0]
+  rst_filename = f"{page_name}.rst"
   
   for python_file in python_files:
       module_name = os.path.splitext(python_file)[0]
-      rst_filename = f"{module_name}.rst"
       
       with open(os.path.join("docs/source", rst_filename), 'w') as f:
           f.write(f"{module_name}\n")
