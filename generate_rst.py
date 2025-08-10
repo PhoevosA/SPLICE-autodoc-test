@@ -11,6 +11,7 @@ for path in folder_paths:
       module_name = os.path.splitext(python_file)[0]
       
       with open(os.path.join("docs/source", rst_filename), 'w') as f:
+          f.write(f"page_name")
           f.write(f"{module_name}\n")
           f.write("=" * len(module_name) + "\n")
           f.write("\n")
