@@ -12,6 +12,7 @@ for path in folder_paths:
       
       with open(os.path.join("docs/source", rst_filename), 'w') as f:
           f.write(f"{page_name}")
+          f.write("=" * len(page_name) + "\n")
           f.write(f"{module_name}\n")
           f.write("\n")
           f.write(f".. automodule:: {module_name}\n")
