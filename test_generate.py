@@ -15,4 +15,4 @@ with open("docs/source/Summary.rst", 'w') as f:
         f.write("   :toctree: generated\n")
         f.write("   :recursive:\n")
         f.write("\n")
-        f.write(f"{module_name}")
+        f.write(f"   {module_name}\n")
