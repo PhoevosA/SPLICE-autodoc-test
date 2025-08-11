@@ -11,9 +11,9 @@ for path in folder_paths:
   
   
     f.write(f"{page_name}\n")
-    f.write("=" * len(page_name) + "\n")
+    f.write("=" * len(page_name))
     for python_file in python_files:
-        f.write(f"{python_file}\n")
+        f.write(f"\n{python_file}\n")
         f.write("^" * len(python_file) + "\n")
         f.write("\n")
         f.write(f".. automodule:: {os.path.splitext(python_file)[0]}\n")
