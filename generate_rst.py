@@ -17,7 +17,7 @@ for path in folder_paths:
         f.write(f"\n{python_file}\n")
         f.write("^" * len(python_file) + "\n")
         f.write("\n")
-        f.write(f"..autosummary::\n")
+        f.write(f".. autosummary::\n")
         f.write("   :toctree: generated\n")
         f.write("   :recursive:\n")
         f.write("\n")
