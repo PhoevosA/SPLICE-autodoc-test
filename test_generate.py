@@ -6,8 +6,12 @@ with open("docs/source/Summaries.rst", 'w') as f:
   f.write("Summaries" + "\n")
   f.write("=========" + "\n")
   f.write("\n")
-  for path in folder_paths:
+  for i,path in enumerate(folder_paths):
     python_files = [file for file in os.listdir(path) if file.endswith('.py') and file != "__init__.py"]
+    subheader = folder_paths[i].split("/")[0]
+    subheader = subheader.split("-")[1].capitalize()
+    f.write(f"{subheader}\n")
+    f.write("^" * len(subheader) + "\n")
     f.write(".. autosummary::\n")
     f.write("   :toctree: generated\n")
     f.write("   :recursive:\n")
