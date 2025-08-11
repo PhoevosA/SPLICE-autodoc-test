@@ -15,7 +15,7 @@ with open("docs/source/Summaries.rst", 'w') as f:
     f.write(".. autosummary::\n")
     f.write("   :toctree: generated\n")
     f.write("   :recursive:\n")
-    f.write("   :no-index:\n")
+    f.write("   :noindex:\n")
     f.write("\n")
 
     for python_file in python_files:
