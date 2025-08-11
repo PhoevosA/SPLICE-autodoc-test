@@ -12,8 +12,7 @@ app = FastAPI()
 def get_random_number():
     """
     Description of this function\n
-
-
+    \n
     Extended descriptions will appear\n
     on automodules but not on the autosummaries\n
     (i.e. on the individual pages vs on the summaries page)\n
