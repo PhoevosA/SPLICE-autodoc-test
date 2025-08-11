@@ -13,7 +13,7 @@ def get_random_number():
     """
     Description of this function
 
-    Does an extended amount of text display properly or is this going to break the automodule? Tune in next time to find out on I Don't Know What I'm Doing (C)
+    Does an extended amount of text display properly or is this going to break the automodule? Tune in next time to find out on I Don't Know What I'm Doing (C)\n
     oooo a new line ('o')
 
     :param None: No input required
