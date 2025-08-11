@@ -16,6 +16,8 @@ def exampleFunction(parameter):
 	This text can be as long as you like and you can put a blank line between paragraphs in your description
 
 	like so, to format them properly
+ 	>>>print(exampleFunction("This is an example string"))
+  	>>>gnirts elpmaxe na si sihT
   
 	:param example: Word to be passed into exampleFunction
 	:type example: string, not optional 
