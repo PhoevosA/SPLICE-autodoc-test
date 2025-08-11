@@ -19,7 +19,6 @@ for path in folder_paths:
         f.write("\n")
         f.write(f".. autosummary::\n")
         f.write("   :toctree: generated\n")
-        f.write("   :recursive:\n")
         f.write("\n" + "\n")
         f.write(f"   {module_name}\n")
         f.write("\n")
