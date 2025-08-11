@@ -1,12 +1,12 @@
+from fastapi import FastAPI
+from splice_lib import main
+from splice_lib.main import random_number
+
 """
 The main program for the api 
 """
 
 __version__ = "0.1.0"
-
-from fastapi import FastAPI
-from splice_lib import main
-from splice_lib.main import random_number
 
 app = FastAPI()
 
