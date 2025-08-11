@@ -12,7 +12,8 @@ def get_random_number():
     
     Description of this function
     
-    Extended descriptions will appear on automodules but not on the autosummaries (i.e. on the individual pages vs on the summaries page). This text can be as long as you like and you can put a blank line between paragraphs in your description
+    Extended descriptions will appear on automodules but not on the autosummaries (i.e. on the individual pages vs on the summaries page).
+    This text can be as long as you like and you can put a blank line between paragraphs in your description
     
     like so, to format them properly
     
