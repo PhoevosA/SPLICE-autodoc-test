@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from splice_lib import main
-from splice_lib.main import random_number
+from splice_lib import libMain
+from splice_lib.libMain import random_number
 
 """
 The main program for the api 
