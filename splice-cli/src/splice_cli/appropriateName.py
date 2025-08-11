@@ -14,8 +14,8 @@ def testing(parameter):
     """
     Description goes here
     
-    :param parameter: Non-optional string to be passed in
-    :type parameter: string
+    :param parameter: String to be passed in
+    :type parameter: string, not optional
     :raise appropriateName.NotAStringError: If the parameter is not a string.
     :return: The string backwards
     :rtype: string
