@@ -16,8 +16,6 @@ for path in folder_paths:
         f.write(f"{python_file}\n")
         f.write("-" * len(python_file) + "\n")
         f.write("\n")
-        f.write(f".. automodule:: {os.path.splitext(python_file)[0]}\n")
-        f.write("   :members:\n")
-        f.write("   :undoc-members:\n")
-        f.write("   :show-inheritance:\n")
-        
+        f.write(f".. autosummary:: {os.path.splitext(python_file)[0]}\n")
+        f.write("   :class:\n")
+        f.write("   :recursive:\n")        
