@@ -3,7 +3,7 @@ import os
 folder_paths = ['splice-api/app','splice-cli/src/splice_cli','splice-lib/src/splice_lib']
 
 for path in folder_paths:
-  python_files = [f for f in os.listdir(path) if f.endswith('.py')]
+  python_files = [f for f in os.listdir(path) if f.endswith('.py') and f != "__init__.py"]
   page_name = path.split("/")[0]
   page_name = page_name.split("-")[1].capitalize()
   rst_filename = f"{page_name}.rst"
