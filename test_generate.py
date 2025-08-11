@@ -5,6 +5,7 @@ folder_paths = ['splice-api/app','splice-cli/src/splice_cli','splice-lib/src/spl
 with open("docs/source/Summary.rst", 'w') as f:
   f.write("Summary" + "\n")
   f.write("=======" + "\n")
+  f.write("\n")
   for path in folder_paths:
     python_files = [file for file in os.listdir(path) if file.endswith('.py') and file != "__init__.py"]
     
