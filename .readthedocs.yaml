@@ -11,16 +11,14 @@ build:
       - asdf global uv latest
       - UV_PROJECT_ENVIRONMENT=$READTHEDOCS_VIRTUALENV_PATH uv venv 
       - UV_PROJECT_ENVIRONMENT=$READTHEDOCS_VIRTUALENV_PATH uv add -r docs/requirements.txt
-      - UV_PROJECT_ENVIRONMENT=$READTHEDOCS_VIRTUALENV_PATH uv sync --all-extras 
+      - UV_PROJECT_ENVIRONMENT=$READTHEDOCS_VIRTUALENV_PATH uv sync --all-groups
       - UV_PROJECT_ENVIRONMENT=$READTHEDOCS_VIRTUALENV_PATH uv run generate_rst.py
     install: 
       - "true"
 
-python:
-  install:
-    - requirements: docs/requirements.txt
-
 sphinx:
   configuration: docs/source/conf.py
+  fail_on_warning: true
+  
 
 formats: all

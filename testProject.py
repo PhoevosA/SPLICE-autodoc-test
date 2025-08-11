@@ -12,6 +12,9 @@ class NotAStringError(Exception):
 def testing(parameter):
     """
     Description goes here
+
+    Multiline description here or something\n
+    new line ('_')
     
     :param parameter: Non-optional string to be passed in
     :type parameter: string
