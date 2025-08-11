@@ -1,7 +1,7 @@
-"""The main program for the api"""
-
 from fastapi import FastAPI
 from libMain import random_number
+
+"""The main program for the api"""
 
 __version__ = "0.1.0"
 
