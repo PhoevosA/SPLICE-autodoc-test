@@ -13,12 +13,10 @@ for path in folder_paths:
     f.write(f"{page_name}\n")
     f.write("=" * len(page_name) + "\n")
     for python_file in python_files:
-        module_name = os.path.splitext(python_file)[0]
-      
-        f.write(f"{module_name}\n")
-        f.write("-" * len(module_name) + "\n")
+        f.write(f"{python_file}\n")
+        f.write("-" * len(python_file) + "\n")
         f.write("\n")
-        f.write(f".. automodule:: {module_name}\n")
+        f.write(f".. automodule:: {os.path.splitext(python_file)[0]}\n")
         f.write("   :members:\n")
         f.write("   :undoc-members:\n")
         f.write("   :show-inheritance:\n")
