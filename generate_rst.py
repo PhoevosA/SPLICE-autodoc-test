@@ -13,7 +13,7 @@ for path in folder_paths:
     f.write(f"{page_name}\n")
     f.write("=" * len(page_name))
     for python_file in python_files:
-        module_name = os.path.splitext(python_file)[0]
+        module_name = python_file.split(".")[0]
         f.write(f"\n{python_file}\n")
         f.write("^" * len(python_file) + "\n")
         f.write("\n")
