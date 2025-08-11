@@ -21,5 +21,8 @@ for path in folder_paths:
         f.write("   :member-order: groupwise\n")
         f.write("   :members:\n")
         f.write("   :undoc-members:\n")
-        f.write("   :show-inheritance:\n") 
+        f.write("   :show-inheritance:\n")
+        f.write("   :noindex:\n")
+
+  
 
