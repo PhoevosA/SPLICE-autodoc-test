@@ -21,7 +21,7 @@ for path in folder_paths:
         f.write("   :toctree: generated\n")
         f.write("   :recursive:\n")
         f.write("\n")
-        f.write("\n{module_name}\n")
+        f.write(f"\n{module_name}\n")
         f.write("\n")
         f.write(f".. automodule:: {module_name}\n")
         f.write("   :member-order: groupwise\n")
