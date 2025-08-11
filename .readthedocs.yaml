@@ -16,6 +16,12 @@ build:
     install: 
       - "true"
 
+python:
+  install:
+    - method: uv
+      path: splice-api
+
+
 sphinx:
   configuration: docs/source/conf.py
   fail_on_warning: true
