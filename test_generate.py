@@ -12,7 +12,7 @@ with open("docs/source/Summary.rst", 'w') as f:
     for python_file in python_files:
         module_name = python_file.split(".")[0]
         f.write(".. autosummary::\n")
-        f.write("   :toctree: generated")
-        f.write("   :recursive:")
+        f.write("   :toctree: generated\n")
+        f.write("   :recursive:\n")
         f.write("\n")
         f.write(f"{module_name}")
