@@ -17,5 +17,4 @@ for path in folder_paths:
         f.write("-" * len(python_file) + "\n")
         f.write("\n")
         f.write(f".. autosummary:: {os.path.splitext(python_file)[0]}\n")
-        f.write("   :class:\n")
         f.write("   :recursive:\n")        
