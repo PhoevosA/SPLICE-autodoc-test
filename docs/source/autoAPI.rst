@@ -8,9 +8,9 @@ Click this for basic descriptions of all the functions
   :toctree: generated
   :recursive:
 
-  app.main
+  apiMain
 
 Detailed descriptions of the functions are down here 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. autofunction:: app.main.get_random_number()
+.. autofunction:: apiMain.get_random_number()
