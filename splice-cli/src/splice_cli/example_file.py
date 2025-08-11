@@ -22,6 +22,8 @@ def exampleFunction(parameter):
 	:raise example_file.ExampleError: If the parameter is not a string 
 	:return: The string backwards 
 	:rtype: string 
+
+ 	This is a test
 	"""
     try:
         if type(parameter) != str:
