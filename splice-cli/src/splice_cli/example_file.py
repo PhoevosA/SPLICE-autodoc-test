@@ -28,7 +28,7 @@ def exampleFunction(parameter):
   	.. code-block:: python 
 
    	   >>>from example_file import exampleFunction
-
+       >>>
 	   >>>print(exampleFunction('This is an example string'))
   	   >>>gnirts elpmaxe na si sihT
  
