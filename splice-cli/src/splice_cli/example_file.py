@@ -24,10 +24,8 @@ def exampleFunction(parameter):
 	:rtype: string 
 
  	For example: 
-  	```
-	print(exampleFunction('This is an example string'))
-  	gnirts elpmaxe na si sihT
-	```
+  	``print(exampleFunction('This is an example string'))``
+  	``gnirts elpmaxe na si sihT``
  
 	"""
     try:
