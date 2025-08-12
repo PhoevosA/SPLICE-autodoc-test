@@ -25,6 +25,7 @@ def exampleFunction(parameter):
 
  	For example: 
   	``print(exampleFunction('This is an example string'))``
+
   	``gnirts elpmaxe na si sihT``
  
 	"""
