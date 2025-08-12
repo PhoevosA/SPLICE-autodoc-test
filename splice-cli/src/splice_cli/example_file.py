@@ -23,9 +23,11 @@ def exampleFunction(parameter):
 	:return: The string backwards 
 	:rtype: string 
 
- 	For example, ``print(exampleFunction('This is an example string'))``
-  
-  	would return ``gnirts elpmaxe na si sihT``
+ 	For example, 
+  	```
+	  print(exampleFunction('This is an example string'))
+  	  gnirts elpmaxe na si sihT
+	 ```
 	"""
     try:
         if type(parameter) != str:
