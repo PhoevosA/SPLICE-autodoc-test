@@ -23,7 +23,7 @@ def exampleFunction(parameter):
 	:return: The string backwards 
 	:rtype: string 
 
- 	For example: this
+ 	For example:
   	
   	.. code-block:: python 
 
