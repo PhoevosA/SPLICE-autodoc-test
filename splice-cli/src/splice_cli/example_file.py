@@ -24,9 +24,15 @@ def exampleFunction(parameter):
 	:rtype: string 
 
  	For example: 
-  	``print(exampleFunction('This is an example string'))``
+  	
+  	.. code-block:: python 
 
-  	``gnirts elpmaxe na si sihT``
+   	   from example_file import exampleFunction
+
+
+	   print(exampleFunction('This is an example string'))
+  
+  	   gnirts elpmaxe na si sihT
  
 	"""
     try:
