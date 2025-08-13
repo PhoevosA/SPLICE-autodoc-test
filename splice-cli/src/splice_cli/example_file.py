@@ -34,14 +34,14 @@ def exampleFunction(example):
  
 	"""
     try:
-        if type(parameter) != str:
+        if type(example) != str:
             raise ExampleError
 
     except ExampleError:
         print("Not a string")
         return
 
-    return parameter[::-1]
+    return example[::-1]
 
 class ClassName():
 	"""
