@@ -7,7 +7,7 @@ class ExampleError(Exception):
     pass
 
 
-def exampleFunction(parameter):
+def exampleFunction(example):
     """
     
 	Description of this function
@@ -34,13 +34,42 @@ def exampleFunction(parameter):
  
 	"""
     try:
-        if type(parameter) != str:
-            raise NotAStringError
+        if type(example) != str:
+            raise ExampleError
 
-    except NotAStringError:
+    except ExampleError:
         print("Not a string")
         return
 
-    return parameter[::-1]
+    return example[::-1]
+
+class ClassName():
+	"""
+	This is a description of ClassName
+
+	:param firstPar: This is the first example parameter
+	:type firstPar: string, not optional
+	:param secondPar: This is the second example parameter
+	:type secondPar: integer, optional
+    """
+    
+	def __init__(self, firstPar, secondPar=0):
+		"""Constructor method"""
+
+		self.par1 = firstPar
+		self.par2 = secondPar
+
+	def classMethod(self, thirdPar):
+		"""
+		This is the description of this method
+
+		:param thirdPar: This is the third example parameter
+		:type thirdPar: integer, non-optional
+		:return: The integer passed in + 1 
+		:rtype: integer 
+		"""
+		
+		return thirdPar + 1 
+
 
 print(exampleFunction("This is an example string"))
