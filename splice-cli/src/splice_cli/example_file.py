@@ -35,9 +35,9 @@ def exampleFunction(example):
 	"""
     try:
         if type(parameter) != str:
-            raise NotAStringError
+            raise ExampleError
 
-    except NotAStringError:
+    except ExampleError:
         print("Not a string")
         return
 
