@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+lfrom fastapi import FastAPI
 
 __doc__ = """This should describe the purpose of this file"""
 
@@ -7,7 +7,7 @@ class ExampleError(Exception):
     pass
 
 
-def exampleFunction(parameter):
+def exampleFunction(example):
     """
     
 	Description of this function
